@@ -1,32 +1,149 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Ubuntu',
-    sans-serif;
+    /* font-size: 10px; */
+   font-family: 'Poppins',
+   sans-serif;
     
 
 }
-.stay-focused-border{
-   font-family: 'Nanum Myeongjo',
+.stay-focused-font{
+   font-family: 'Merriweather',
    serif;
-    border-left: 5px solid rgb(22, 231, 22);
-    font-size: 40px;
+    font-size: 50px;
     margin-left: 20px;
-    padding-left: 5px;
-    margin-top:30px ;
-
+    padding-left: 9px;
+    margin-top:50px ;
+    border-radius: 3px;
+text-decoration: none;
 }
-section{
+.stay-focused-border{
+    border-left: 4px solid rgba(0, 255, 0, 0.486);
+    margin-left: 8px;
+    padding-left: 9px;
+    padding-right: 5px;
+    margin-top:30px;
+    border-radius: 3px;
+   
+}
+
+.main-area{
+     
     display: flex;
+    margin: 20px 70px 5px 50px;
+    font-size: 20px;
+    
+}
+.mission-main-area{
+    display: flex;
+    margin: 20px 120px 5px 120px;
+    font-size: 20px;
+
 }
 .stay-focused-area{
     height: 50%;
     width: 50%;
     margin-left: 100px;
 }
+#stay-focused-area{
+margin-top: 90px;
+    }
+    h3{
+        margin: 0;
+        padding: 0;
+    }
+
 .stay-focused-area img{
     margin: 0;
     padding: 0;
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
+}
+h1 {
+    margin: 0px 0px 0px 0px;
+    padding: 2px 0px 0px 0px;
+}
+.click-button{
+    background-color:#ff5959;
+     color: honeydew;
+     font-size: 15px;
+     padding: 10px 30px;
+     border-radius:5px;
+     text-decoration: none;
+}
+.section-headline{
+    color: rgb(19, 5, 46);
+     font-family: 'Poppins',
+     sans-serif;
+     font-size: 45px;
+     text-align: center;
+    font-weight: 1000;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.missin-section img{
+    height: 40%;
+    width: 30%;
+}
+#missin-goal-section img{
+    height: 40%;
+    width: 30%;
+}
+.missin-section{
+    font-size: 15px;
+    background-color: rgb(240, 243, 243);
+    padding: 10px 10px 30px 30px;
+    border-radius: 30px;
+    margin: 10px;
+}
+h1{
+    font-size: 32px;
+}
+#missin-goal-section{
+    font-size: 15px;
+    background-color: rgb(226, 231, 231);
+    padding: 10px 10px 30px 30px;
+
+    border-radius: 30px;
+    margin: 10px;
+}
+.devolop-limits-area-left-2 img{
+margin: 0;
+padding: 0;
+height: 80%;
+width: 80%;
+}
+.devolop-limits-area-left-2{
+    height: 50%;
+    width: 35%;
+}
+#devolop-limits-area-right{
+height: 50%;
+width: 60%;
+margin-top: 20px;
+}
+}
+.devolop-limits-area-left-shape{
+    background-image: url(images/shape.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    
+
+}
+.devolop-limits-area-left-flex{
+    display: flex;
+    margin-right: 110px;
+   text-align: justify;
+   padding-right: 25px;
+
+}
+.devolop-limits-area-left-1{
+    height: 50%;
+    width: 10%;
+}
+.devolop-limits-area-left-1 img{
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
 }
